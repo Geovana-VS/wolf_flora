@@ -1,0 +1,38 @@
+.lista-adultos{
+
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.mural{
+  background-color: #f9fcf8;
+  width: 82.5%;
+}
+
+.card{
+  width: 300px;
+  height: auto;
+
+}
+
+h2{
+  font-weight: bolder;
+  color: #055659;
+  text-align: center;
+
+}
+
+
+.btn_compra{
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+}
+
+h2,h3{
+  font-weight:bold;
+  color: #055659;
+}
+
