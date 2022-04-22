@@ -15,7 +15,11 @@ import { CadastroComponent } from './cadastro/cadastro.component';
 import { FloraisAdultosComponent } from './florais-adultos/florais-adultos.component';
 import { FloraisAutoconhecimentoComponent } from './florais-autoconhecimento/florais-autoconhecimento.component';
 import { TranstornosComponent } from './transtornos/transtornos.component';
-import { EmocionalComponent } from './emocional/emocional.component';/* importa icones*/
+import { EmocionalComponent } from './emocional/emocional.component';
+
+import { SobreFloraisComponent } from './sobre-florais/sobre-florais.component';
+import { SegundaInfanciaComponent } from './segunda-infancia/segunda-infancia.component';
+import { AdolescenciaComponent } from './adolescencia/adolescencia.component';/* importa icones*/
 
 @NgModule({
   declarations: [
@@ -29,7 +33,11 @@ import { EmocionalComponent } from './emocional/emocional.component';/* importa 
     FloraisAdultosComponent,
     FloraisAutoconhecimentoComponent,
     TranstornosComponent,
-    EmocionalComponent
+    EmocionalComponent,
+
+    SobreFloraisComponent,
+    SegundaInfanciaComponent,
+    AdolescenciaComponent
   ],
   imports: [
     BrowserModule,
